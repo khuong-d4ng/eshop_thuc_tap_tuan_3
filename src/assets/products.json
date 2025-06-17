@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Áo thun trắng",
+    "price": 150000,
+    "image": "https://via.placeholder.com/200x150.png?text=Aothun"
+  },
+  {
+    "id": 2,
+    "name": "Quần jean xanh",
+    "price": 300000,
+    "image": "https://via.placeholder.com/200x150.png?text=Jean"
+  }
+]
