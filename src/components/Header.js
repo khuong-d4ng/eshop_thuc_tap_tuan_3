@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Add this import
 
 const Header = () => {
   return (
     <header className="bg-white shadow-md p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold text-blue-600">MyShop</h1>
+      <Link to="/" className="text-xl font-bold text-blue-600">
+        MyShop
+      </Link>
       <input
         type="text"
         placeholder="Tìm kiếm sản phẩm..."
