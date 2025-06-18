@@ -3,12 +3,60 @@
     "id": 1,
     "name": "Áo thun trắng",
     "price": 150000,
-    "image": "https://via.placeholder.com/200x150.png?text=Aothun"
+    "image": "/images/products/11.jpg"
   },
   {
     "id": 2,
     "name": "Quần jean xanh",
     "price": 300000,
-    "image": "https://via.placeholder.com/200x150.png?text=Jean"
+    "image": "images/products/1.avif"
+  },
+  {
+    "id": 3,
+    "name": "Áo sơ mi kẻ caro",
+    "price": 250000,
+    "image": "images/products/2.avif"
+  },
+  {
+    "id": 4,
+    "name": "Quần tây đen",
+    "price": 350000,
+    "image": "images/products/3.avif"
+  },
+  {
+    "id": 5,
+    "name": "Áo khoác gió",
+    "price": 450000,
+    "image": "images/products/4.avif"
+  },
+  {
+    "id": 6,
+    "name": "Giày thể thao trắng",
+    "price": 500000,
+    "image": "images/products/5.avif"
+  },
+  {
+    "id": 7,
+    "name": "Mũ lưỡi trai đen",
+    "price": 100000,
+    "image": "images/products/6.avif"
+  },
+  {
+    "id": 8,
+    "name": "Túi xách da nâu",
+    "price": 600000,
+    "image": "images/products/7.avif"
+  },
+  {
+    "id": 9,
+    "name": "Váy maxi hoa",
+    "price": 400000,
+    "image": "images/products/8.avif"
+  },
+  {
+    "id": 10,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "images/products/9.avif"
   }
 ]
