@@ -1,7 +1,15 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { useNavigate } from 'react-router-dom'; // Add this import
 
 const BannerCarousel = () => {
+  const navigate = useNavigate(); // Add this line
+
+  // Handler for clicking the banner
+  const handleBannerClick = () => {
+    navigate('/login');
+  };
+
   return (
     <div className="w-full relative">
       {/* quảng cáo hihi */}
@@ -12,7 +20,7 @@ const BannerCarousel = () => {
         </p>
       </div>
       {/* Banner Carousel */}
-      <div className="w-full h-[500px]">
+      <div className="w-full h-[500px] cursor-pointer" onClick={handleBannerClick}>
         <Carousel
           autoPlay
           infiniteLoop
