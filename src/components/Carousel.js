@@ -1,11 +1,11 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { useNavigate } from 'react-router-dom'; // Add this import
+import { useNavigate } from 'react-router-dom';
 
 const BannerCarousel = () => {
-  const navigate = useNavigate(); // Add this line
+  const navigate = useNavigate();
 
-  // Handler for clicking the banner
+  // Handler for clicking the banner text
   const handleBannerClick = () => {
     navigate('/login');
   };
@@ -13,14 +13,22 @@ const BannerCarousel = () => {
   return (
     <div className="w-full relative">
       {/* quảng cáo hihi */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-10">
-        <h1 className="text-white text-6xl font-bold drop-shadow-lg select-none">JOIN US THIS SUMMER</h1>
-        <p className="text-white text-xl mt-4 drop-shadow-md select-none">
-          Get a deal in this summer up to 30% discount
-        </p>
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
+        <div
+          className="flex flex-col items-center cursor-pointer pointer-events-auto px-8 py-6 rounded-lg"
+          onClick={handleBannerClick}
+          tabIndex={0}
+          role="button"
+          aria-label="Go to login"
+        >
+          <h1 className="text-white text-6xl font-bold drop-shadow-lg select-none">JOIN US THIS SUMMER</h1>
+          <p className="text-white text-xl mt-4 drop-shadow-md select-none">
+            Get a deal in this summer up to 30% discount
+          </p>
+        </div>
       </div>
       {/* Banner Carousel */}
-      <div className="w-full h-[500px] cursor-pointer" onClick={handleBannerClick}>
+      <div className="w-full h-[500px]">
         <Carousel
           autoPlay
           infiniteLoop
