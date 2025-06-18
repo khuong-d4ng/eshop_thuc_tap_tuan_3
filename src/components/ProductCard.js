@@ -8,7 +8,6 @@ const ProductCard = ({ product, onAddToCart }) => {
       <p className="text-green-600 font-medium">{product.price}₫</p>
       <button
         className="mt-2 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
-        onClick={() => onAddToCart(product)}
       >
         Thêm vào giỏ
       </button>
