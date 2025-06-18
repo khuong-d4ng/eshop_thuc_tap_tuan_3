@@ -1,4 +1,4 @@
-import React from "react";
+import Reac, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import compoent 
@@ -9,14 +9,15 @@ import Shop from "./pages/Shop";
 import Login from "./pages/Login";
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        <Header />
+        <Header onSearch={setSearchTerm}/>
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop" element={<Shop searchTerm={searchTerm} />} />
             <Route path="/login" element={<Login />} />
           </Routes>
         </main>
