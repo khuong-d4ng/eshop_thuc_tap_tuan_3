@@ -3,60 +3,105 @@
     "id": 1,
     "name": "Áo thun trắng",
     "price": 150000,
-    "image": "/images/products/11.jpg"
+    "image": "/images/products/etc-product/1.jpg",
+    "tags": ["female", "sales"]
   },
   {
     "id": 2,
     "name": "Quần jean xanh",
     "price": 300000,
-    "image": "/images/products/1.avif"
+    "image": "/images/products/etc-product/8.jpg",
+    "tags": ["male", "hot"]
   },
   {
     "id": 3,
     "name": "Áo sơ mi kẻ caro",
     "price": 250000,
-    "image": "/images/products/2.avif"
+    "image": "/images/products/etc-product/2.jpg",
+    "tags": ["female", "sales"]
   },
   {
     "id": 4,
     "name": "Quần tây đen",
     "price": 350000,
-    "image": "/images/products/3.avif"
+    "image": "/images/products/etc-product/3.jpg",
+    "tags": ["male", "hot"]
   },
   {
     "id": 5,
     "name": "Áo khoác gió",
     "price": 450000,
-    "image": "/images/products/4.avif"
+    "image": "/images/products/etc-product/4.jpg",
+    "tags": ["male", "hot"]
   },
   {
     "id": 6,
     "name": "Giày thể thao trắng",
     "price": 500000,
-    "image": "/images/products/5.avif"
+    "image": "/images/products/etc-product/5.jpg",
+    "tags": ["female", "sales"]
   },
   {
     "id": 7,
     "name": "Mũ lưỡi trai đen",
     "price": 100000,
-    "image": "/images/products/6.avif"
+    "image": "/images/products/etc-product/6.jpg",
+    "tags": ["male", "hot"]
   },
   {
     "id": 8,
     "name": "Túi xách da nâu",
     "price": 600000,
-    "image": "/images/products/7.avif"
+    "image": "/images/products/etc-product/7.jpg",
+    "tags": ["female", "sales"]
   },
   {
     "id": 9,
     "name": "Váy maxi hoa",
     "price": 400000,
-    "image": "/images/products/8.avif"
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
   },
   {
     "id": 10,
     "name": "Đồng hồ thể thao",
     "price": 700000,
-    "image": "/images/products/9.avif"
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
+  },
+  {
+    "id": 11,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
+  },
+  {
+    "id": 12,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
+  },
+  {
+    "id": 13,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
+  },
+  {
+    "id": 14,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
+  },
+  {
+    "id": 15,
+    "name": "Đồng hồ thể thao",
+    "price": 700000,
+    "image": "/images/products/etc-product/9.jpg",
+    "tags": ["female", "sales"]
   }
 ]
