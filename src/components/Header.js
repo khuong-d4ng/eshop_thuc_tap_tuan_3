@@ -1,5 +1,6 @@
+
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'; // Add this import
+import { Link, useNavigate } from 'react-router-dom'; // Add this import
 import products from '../assets/products.json';
 
 const Header = ({onSearch}) => {
@@ -15,8 +16,11 @@ const Header = ({onSearch}) => {
         setSuggestions([]);
       }
     }, [input])
+  
+  const navigate = useNavigate();
+
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center">
+    <header className="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
       <Link to="/" className="text-xl font-bold text-blue-600">
         MyShop
       </Link>
@@ -43,8 +47,8 @@ const Header = ({onSearch}) => {
       </div>
      
       <div className="flex gap-4 items-center">
-        <button className="text-gray-600 hover:text-blue-500">Danh mục</button>
-        <button className="relative">
+        <button className="text-gray-600 hover:text-blue-500" onClick={() => navigate("/shop")}>Tất cả sản phẩm</button>
+        <button className="relative" >
           🛒
           <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full text-xs px-1">2</span>
         </button>
