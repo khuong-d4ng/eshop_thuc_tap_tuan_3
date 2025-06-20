@@ -35,9 +35,11 @@ const Header = ({onSearch}) => {
         <ul className="absolute top-16 bg-white border border-gray-300 rounded w-full max-w-3xl z-10 shadow-md">
           {suggestions.map((item) => (
             <li
-              key={item.id}
               className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-              onClick={() => setInput(item.name)}
+              onClick={() => {
+                navigate(`/product/${item.id}`);
+                setSuggestions([]);
+              }}
             >
               {item.name}
             </li>

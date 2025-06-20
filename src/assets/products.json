@@ -4,104 +4,119 @@
     "name": "Áo thun trắng",
     "price": 150000,
     "image": "/images/products/etc-product/1.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Áo thun cotton trắng đơn giản, chất liệu co giãn thoải mái, phù hợp mặc hàng ngày."
   },
   {
     "id": 2,
     "name": "Quần jean xanh",
     "price": 300000,
     "image": "/images/products/etc-product/8.jpg",
-    "tags": ["male", "hot"]
+    "tags": ["male", "hot"],
+    "description": "Quần jean xanh nam form slim, chất liệu denim bền, thời trang và dễ phối đồ."
   },
   {
     "id": 3,
     "name": "Áo sơ mi kẻ caro",
     "price": 250000,
     "image": "/images/products/etc-product/2.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Áo sơ mi nữ họa tiết kẻ caro, phong cách trẻ trung, năng động, phù hợp đi học hoặc đi chơi."
   },
   {
     "id": 4,
     "name": "Quần tây đen",
     "price": 350000,
     "image": "/images/products/etc-product/3.jpg",
-    "tags": ["male", "hot"]
+    "tags": ["male", "hot"],
+    "description": "Quần tây đen thanh lịch, form chuẩn công sở, phù hợp môi trường làm việc hoặc sự kiện."
   },
   {
     "id": 5,
     "name": "Áo khoác gió",
     "price": 450000,
     "image": "/images/products/etc-product/4.jpg",
-    "tags": ["male", "hot"]
+    "tags": ["male", "hot"],
+    "description": "Áo khoác gió nam chất liệu chống thấm, nhẹ, phù hợp mùa mưa và thời tiết se lạnh."
   },
   {
     "id": 6,
     "name": "Giày thể thao trắng",
     "price": 500000,
     "image": "/images/products/etc-product/5.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Giày thể thao trắng năng động, dễ phối đồ, đế cao su chống trơn trượt, thoải mái khi vận động."
   },
   {
     "id": 7,
     "name": "Mũ lưỡi trai đen",
     "price": 100000,
     "image": "/images/products/etc-product/6.jpg",
-    "tags": ["male", "hot"]
+    "tags": ["male", "hot"],
+    "description": "Mũ lưỡi trai màu đen thời trang, phù hợp cho cả nam và nữ, chống nắng và tạo phong cách cá tính."
   },
   {
     "id": 8,
     "name": "Túi xách da nâu",
     "price": 600000,
     "image": "/images/products/etc-product/7.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Túi xách da cao cấp màu nâu, kiểu dáng thanh lịch, tiện lợi khi đi làm hoặc dạo phố."
   },
   {
     "id": 9,
     "name": "Váy maxi hoa",
     "price": 400000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Váy maxi nữ họa tiết hoa nhẹ nhàng, chất vải mềm mại, phù hợp đi biển hoặc dạo chơi."
   },
   {
     "id": 10,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   },
   {
     "id": 11,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   },
   {
     "id": 12,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   },
   {
     "id": 13,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   },
   {
     "id": 14,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   },
   {
     "id": 15,
     "name": "Đồng hồ thể thao",
     "price": 700000,
     "image": "/images/products/etc-product/9.jpg",
-    "tags": ["female", "sales"]
+    "tags": ["female", "sales"],
+    "description": "Đồng hồ thể thao điện tử, chống nước, nhiều tính năng tiện lợi, phù hợp cả nam và nữ."
   }
 ]
