@@ -26,7 +26,7 @@ export default function Shop() {
       {/* Sidebar */}
       <aside
         className="w-1/6 min-w-[180px] bg-white shadow-md p-6 flex flex-col sticky"
-        style={{ top: "72px" }}
+        style={{ top: "72px", height: "calc(100vh - 72px)" }}
       >
         <h2 className="text-lg font-bold mb-4">Lọc sản phẩm</h2>
         <button
